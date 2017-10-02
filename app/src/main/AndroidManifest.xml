@@ -2,6 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jo_1.androidlabs">
 
+    <uses-feature
+        android:name= "android.hardware.camera"
+        android:required="true"
+        />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22"
+        />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,10 +31,14 @@
             </intent-filter>
         </activity>
 
-
         <activity android:name=".ListItemsActivity">
 
         </activity>
+
+
+
+
+
     </application>
 
 </manifest>

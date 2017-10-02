@@ -2,10 +2,15 @@
     <string name="app_name">My Application</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\’m a button</string>
-    <string name="text">Login Name</string>
+    <string name="text">Login</string>
     <string name="password">Password</string>
     <string name="radioB">Radio Button</string>
     <string name="checkB">Check Box</string>
     <string name="switchB">What does this do?</string>
     <string name="imageB">Image</string>
+    <string name="button1">Login</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">CANCEL</string>
+    <string name="DialogTitle">CheckBox</string>
+    <string name="DialogMessage">OK</string>
 </resources>

@@ -28,10 +28,9 @@
     <Switch
         android:id="@+id/switchB"
         android:layout_height="wrap_content"
-        android:text="@string/switchB"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
-        />
+        android:text="@string/switchB" />
 
     <ImageButton
         android:id="@+id/imageB"
