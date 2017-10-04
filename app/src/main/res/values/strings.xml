@@ -13,4 +13,11 @@
     <string name="Cancel">CANCEL</string>
     <string name="DialogTitle">CheckBox</string>
     <string name="DialogMessage">OK</string>
+    <string name="ButtonText2">Start Chat</string>
+    <string name="commentsList">ListView</string>
+    <string name="comment"> </string>
+    <string name="SendB">SEND</string>
+    <string name="message_text">TextView</string>
+
+
 </resources>

@@ -29,10 +29,20 @@ public class StartActivity extends Activity {
                 startActivityForResult(i, 10);
             }
 
-
-
         });
-    }
+        
+    Button btn2 = (Button) findViewById(R.id.button2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(StartActivity.this, ChatWindow.class);
+            startActivity(intent);
+            Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+        }
+
+    });
+}
+
             protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
                 if ((requestCode == 10) && (resultCode == Activity.RESULT_OK)) {

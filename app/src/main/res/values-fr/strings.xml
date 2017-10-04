@@ -7,7 +7,18 @@
     <string name="password">Mot de passe</string>
     <string name="password2">Mot de passe</string>
     <string name="radioB">Bouton Radio</string>
-    <string name="checkB">case à cocher</string>
+    <string name="checkB">Case à cocher</string>
     <string name="switchB">Qu\'est-ce que cela fait?</string>
     <string name="imageB">Image</string>
+    <string name="button1">S\'identifier</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Annuler</string>
+    <string name="DialogTitle">Case à cocher</string>
+    <string name="DialogMessage">OK</string>
+    <string name="ButtonText2">Démarrer la discussion</string>
+    <string name="commentsList">Vue de liste</string>
+    <string name="comment"> </string>
+    <string name="SendB">Envoyer</string>
+    <string name="message_text">Vue de texte</string>
+
 </resources>

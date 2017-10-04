@@ -3,15 +3,12 @@
     package="com.example.jo_1.androidlabs">
 
     <uses-feature
-        android:name= "android.hardware.camera"
-        android:required="true"
-        />
+        android:name="android.hardware.camera"
+        android:required="true" />
 
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="22"
-        />
-
+        android:maxSdkVersion="22" />
 
     <application
         android:allowBackup="true"
@@ -19,10 +16,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartActivity">
-
-        </activity>
-
+        <activity android:name=".StartActivity"></activity>
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,15 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".ListItemsActivity">
-
-        </activity>
-
-
-
-
-
+        <activity android:name=".ListItemsActivity"></activity>
+        <activity android:name=".ChatWindow"></activity>
     </application>
 
 </manifest>
