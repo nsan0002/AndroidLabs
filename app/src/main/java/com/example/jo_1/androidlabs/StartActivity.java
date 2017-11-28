@@ -15,6 +15,9 @@ public class StartActivity extends Activity {
     protected static final String ACTIVITY_NAME = "StartActivity";
     protected final int requestCode = 10;
 
+   private String TAG = "activity_start.xml";
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +44,16 @@ public class StartActivity extends Activity {
         }
 
     });
-}
+
+       Button weatherB = (Button)findViewById(R.id.weatherB);
+        weatherB.setOnClickListener(new View.OnClickListener(){
+        @Override
+        public void onClick (View v){
+        Intent intent = new Intent(StartActivity.this, WeatherForecast.class);
+        startActivity(intent);
+    }
+    });
+    }
 
             protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 

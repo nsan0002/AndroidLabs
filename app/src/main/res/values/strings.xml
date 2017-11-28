@@ -18,6 +18,13 @@
     <string name="comment"> </string>
     <string name="SendB">SEND</string>
     <string name="message_text">TextView</string>
+    <string name="cWeather">  </string>
+    <string name="cTemp">  </string>
+    <string name="minTemp">  </string>
+    <string name="maxTemp">  </string>
+    <string name="progressB">  </string>
+    <string name="weatherB">Weather Forecast</string>
+
 
 
 </resources>
